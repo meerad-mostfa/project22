@@ -1,0 +1,1930 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    /*للخط  */
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.header .conteneer {
+    width: calc(100%-60px);
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 1px solid var(--white-95, #F1F1F3);
+}
+
+.header .row {
+    display: flex;
+    padding: 20px 132px 24px 132px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logonav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.header .navbar {
+    display: flex;
+    gap: 26px;
+
+}
+
+.header .navbar a {
+    align-items: center;
+    font-size: 18px;
+    color: var(--grey-15, #262626);
+}
+
+.header .auth {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header .SignUp {
+    color: var(--grey-15, #262626);
+    font-size: 18px;
+}
+
+.header .login {
+    border-radius: 8px;
+    background: var(--orange-50, #FF9500);
+    ;
+    display: flex;
+    padding: 14px 34px;
+    align-items: center;
+    gap: 8px;
+}
+
+.header .login a {
+    color: var(--absolute-white, #FFF);
+}
+
+.header .logo2 {
+    display: none;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .header .conteneer {
+        width: calc(100%-20px);
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .header .row {
+        display: flex;
+        padding: 16px 60px 20px 60px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header .login {
+        display: flex;
+        padding: 12px 24px;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .header .SignUp {
+        font-size: 14px;
+    }
+
+    .header .navbar a {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .header .row .navbar {
+        display: none;
+    }
+
+    .header .row {
+        display: flex;
+        padding: 14px 0px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .header .logo2 {
+        display: block;
+    }
+
+    .header .auth {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .header .conteneer {
+        width: calc(100%-32px);
+        margin-top: 40px;
+    }
+
+    .header .logo {
+        padding: 5.185px 5.185px 5.185px 5.186px;
+        border-radius: 8px;
+        width: fit-content;
+    }
+
+    .header .auth {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+.saction2 .conteneer {
+    width: calc(100%-952px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin-top: 150px;
+}
+
+.saction2 .row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.saction2 .row1a {
+    display: flex;
+    padding: 14px 30px 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    border-radius: 11px;
+border: 1px solid var(--White-95, #F1F1F3);
+background: var(--White-99, #FCFCFD);
+}
+
+.saction2 .row1a h3 {
+    color: var(--grey-10, #1A1A1A);
+    font-family: Be Vietnam Pro;
+    font-size: 48px;
+}
+
+.saction2 .row1a .icon1 {
+    position: absolute;
+    left: -24px;
+    top: -30px;
+}
+
+.saction2 .row1 h4 {
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-size: 38px;
+}
+
+.saction2 .row1b {
+    display: flex;
+    padding: 0px 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.saction2 .row1 p {
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-size: 18px;
+}
+
+.saction2 .row2 {
+    display: flex;
+    gap: 8px;
+}
+
+.saction2 .row2 .ExploreCourses {
+    border-radius: 8px;
+    background: var(--orange-50, #FF9500);
+    color: var(--absolute-white, #FFF);
+    text-align: center;
+    font-size: 18px;
+    padding: 18px 24px;
+}
+
+.saction2 .row2 .ViewPricing {
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-size: 18px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+}
+
+@media screen and (min-width: 800px) and (max-width:1200px) {
+
+    .saction2 .conteneer {
+        width: calc(100%-(170px+170px));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px
+    }
+
+    .saction2 .row1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .saction2 .row1a {
+        display: flex;
+        padding: 12px 24px 12px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .saction2 .row1a h3 {
+        font-size: 36px;
+    }
+
+    .saction2 .row1 h4 {
+        font-size: 28px;
+    }
+
+    .saction2 .row1b {
+        display: flex;
+        padding: 0px 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .saction2 .row1 p {
+        font-size: 16px;
+    }
+
+    .saction2 .row2 .ExploreCourses {
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+
+    .saction2 .row2 .ViewPricing {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .saction2 .conteneer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .saction2 .row1a {
+        display: flex;
+        padding: 14px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .saction2 .row1a .icon1 {
+        position: absolute;
+        left: -10px;
+
+        top: -20px;
+    }
+
+    .saction2 .row1a h3 {
+        font-size: 16px;
+    }
+
+    .saction2 .row1 h4 {
+        font-size: 24px;
+    }
+
+    .saction2 .row1 p {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .saction2 .row1b {
+        display: flex;
+        padding: 0px 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .saction2 .row2 .ExploreCourses {
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+
+    .saction2 .row2 .ViewPricing {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    .saction2 .row2 {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+}
+
+.saction3 {
+    margin-top: 100px;
+}
+
+.saction3 .conteneer {
+    width: calc(100% - 162px - 162px);
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-99, #FCFCFD);
+}
+
+.saction3 .com {
+    display: flex;
+    padding: 30px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 1 0 0;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .saction3 .conteneer {
+        width: calc(100% - 160px);
+        margin: auto;
+        display: flex;
+        padding: 24px;
+        border-radius: 8px;
+        overflow: auto;
+    }
+
+    .saction3 .com {
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .saction3 .conteneer {
+        width: calc(100% - 32px);
+        margin: auto;
+        display: flex;
+        padding: 10px;
+        border-radius: 8px;
+        overflow: auto;
+    }
+
+    .saction3 .com {
+        padding: 20px 30px;
+    }
+
+}
+
+
+.Benefits {
+    margin-top: 150px;
+}
+
+.Benefits .conteneer {
+    width: calc(100% - 360px);
+    margin: auto;
+}
+
+.Benefits .row {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 80px;
+}
+
+.Benefits .row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.Benefits .row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 300px;
+    align-self: stretch;
+
+}
+
+.Benefits .row1 .row1a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    flex: 1 0 0;
+}
+
+.Benefits .row1 a {
+    padding: 18px 24px;
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-99, #FCFCFD);
+}
+
+.Benefits .row1ap {
+    color: var(--grey-15, #262626);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.Benefits .row1ac {
+    color: var(--grey-35, #59595A);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.Benefits .row22 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+
+}
+
+.Benefits .row22 .Benefit {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+    border-radius: 12px;
+    background: var(--absolute-white, #FFF);
+
+}
+
+.Benefits .row22 .Benefit .Benefit1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    align-self: stretch;
+}
+
+.Benefits .row22 .p2 {
+    color: var(--grey-20, #333);
+    font-size: 24px;
+}
+
+.Benefits .row22 .p3 {
+    font-size: 18px;
+    color: var(--grey-30, #4C4C4D);
+    font-weight: 400;
+}
+
+@media screen and (min-width:800px) and (max-width: 1200px) {
+    .Benefits .conteneer {
+        width: calc(100% - 160px);
+        margin: auto;
+    }
+
+    .Benefits .row {
+
+        gap: 60px;
+    }
+
+    .Benefits .row1 {
+        gap: 250px;
+    }
+
+    .Benefits .row1 .row1a {
+        gap: 4px;
+    }
+
+    .Benefits .row1ap {
+        font-size: 38px;
+    }
+
+    .Benefits .row1ac {
+        font-size: 16px;
+    }
+
+    .Benefits .row1 a {
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+
+    .Benefits .row22 .Benefit {
+        padding: 40px;
+        gap: 40px;
+    }
+
+    .Benefits .row22 .Benefit .Benefit1 {
+        gap: 10px;
+    }
+
+    .Benefits .row22 .p2 {
+        font-size: 20px;
+    }
+
+    .Benefits .row22 .p3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .Benefits .conteneer {
+        width: calc(100% - 32px);
+        margin: auto;
+    }
+
+    .Benefits .row {
+        gap: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Benefits .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 20px;
+
+    }
+
+    .Benefits .row1 .row1a {
+        gap: 4px;
+    }
+
+    .Benefits .row1ap {
+        font-size: 28px;
+    }
+
+    .Benefits .row1ac {
+        font-size: 14px;
+    }
+
+    .Benefits .row1 a {
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+
+    .Benefits .row22 .Benefit {
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .Benefits .row22 .Benefit .Benefit1 {
+        gap: 10px;
+    }
+
+    .Benefits .row22 .p3 {
+        font-size: 14px;
+
+    }
+
+    .Benefits .row22 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.OurCourses {
+    margin-top: 100px;
+}
+
+.OurCourses .conteneer {
+    width: calc(100% - 360px);
+    margin: auto;
+}
+
+.OurCourses .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 80px;
+
+}
+
+.OurCourses .row1 {
+    display: flex;
+    align-items: flex-end;
+    gap: 300px;
+
+}
+
+.OurCourses .row1a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    flex: 1 0 0;
+}
+
+.OurCourses .row1ap {
+    color: var(--grey-15, #262626);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.OurCourses .row1ac {
+    color: var(--grey-35, #59595A);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.OurCourses .row1 a {
+    padding: 18px 24px;
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-99, #FCFCFD);
+}
+
+.OurCourses .row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.OurCourses .row22 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.OurCourses .OurCourse {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+
+}
+
+.OurCourse .conteneer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.OurCourse .conteneer1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.OurCourse .conteneer1 .OurCourserow2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.OurCourse .conteneer1 .OurCourserow2 .time {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.OurCourse .conteneer1 .OurCourserow3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    align-self: stretch;
+}
+
+.OurCourses .OurCourse a {
+    display: flex;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-97, #F7F7F8);
+    color: var(--grey-15, #262626);
+    font-size: 14px;
+}
+
+.OurCourse .OurCourserow2 .time .time1 {
+    padding: 10px 16px;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+    color: var(--grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+}
+
+.OurCourse .OurCourserow2 .nametea {
+    color: var(--grey-15, #262626);
+    font-size: 20px;
+
+    font-weight: 500;
+}
+
+.OurCourse .conteneer1 .OurCourserow3 .nameofcou {
+    color: var(--grey-15, #262626);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.OurCourse .conteneer1 .OurCourserow3 .aboutco {
+    color: var(--grey-30, #4C4C4D);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .OurCourses .conteneer {
+        width: calc(100% - 180px);
+    }
+
+    .OurCourses .row {
+        gap: 60px;
+    }
+
+    .OurCourses .row1 {
+        gap: 250px;
+    }
+
+    .OurCourses .row1ac {
+        font-size: 16px;
+    }
+
+    .OurCourses .row1 a {
+        padding: 14px 20px;
+        font-size: 14px;
+
+        border-radius: 6px;
+    }
+
+    .OurCourses .row2 {
+        display: flex;
+        gap: 20px;
+    }
+
+    .OurCourses .row22 {
+        display: flex;
+        gap: 20px;
+    }
+
+    .OurCourses .OurCourse {
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    .OurCourse .conteneer1 {
+        display: flex;
+        gap: 24px;
+    }
+
+    .OurCourse .conteneer1 img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .OurCourse .conteneer1 .OurCourserow3 {
+        display: flex;
+        gap: 10px;
+    }
+
+    .OurCourses .OurCourse a {
+        padding: 14px 24px;
+        font-size: 14px;
+    }
+
+    .OurCourse .OurCourserow2 .time .time1 {
+        padding: 8px 14px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .OurCourse .OurCourserow2 .nametea {
+        font-size: 16px;
+    }
+
+    .OurCourse .conteneer1 .OurCourserow3 .nameofcou {
+        font-size: 20px;
+    }
+
+    .OurCourse .conteneer1 .OurCourserow3 .aboutco {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .OurCourses .conteneer {
+        width: calc(100% - 32px);
+    }
+
+    .OurCourses .row22 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .OurCourses .row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 40px;
+
+    }
+
+    .OurCourses .row1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+
+    }
+
+    .OurCourses .row2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+        flex-wrap: wrap;
+    }
+
+    .OurCourses .row1ac {
+        font-size: 14px;
+    }
+
+    .OurCourses .row1 a {
+        padding: 14px 20px;
+        font-size: 14px;
+
+        border-radius: 6px;
+    }
+
+    .OurCourses .row22 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+        flex-wrap: wrap;
+    }
+
+    .OurCourses .OurCourse {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .OurCourse .conteneer1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .OurCourse .conteneer1 .OurCourserow2 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+        align-self: stretch;
+    }
+
+    .OurCourse .OurCourserow2 .time {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+
+    }
+
+    .OurCourse .conteneer1 .OurCourserow3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .OurCourses .OurCourse a {
+        padding: 14px 24px;
+        font-size: 14px;
+    }
+
+    .OurCourse .OurCourserow2 .time .time1 {
+        padding: 8px 14px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .OurCourse .OurCourserow2 .nametea {
+        font-size: 16px;
+    }
+
+    .OurCourse .conteneer1 .OurCourserow3 .nameofcou {
+        font-size: 18px;
+    }
+
+    .OurCourse .conteneer1 .OurCourserow3 .aboutco {
+        font-size: 14px;
+    }
+
+}
+
+.video {
+    margin-top: 100px;
+}
+
+.video .conteneer {
+    width: calc(100% - 320px);
+    margin: auto;
+}
+
+.video img {
+    width: 100%;
+    display: flex;
+    border-radius: 28px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.video .conteneer .img-video {
+    position: relative;
+    width: 100%;
+}
+
+.start-video {
+    position: absolute;
+    margin: auto;
+    border-radius: 68px;
+    border: 4px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.20);
+    padding: 10px;
+    box-sizing: content-box;
+    left: 50%;
+    top: 50%;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .video .conteneer {
+        width: calc(100% - 180px);
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .video .conteneer {
+        width: calc(100% - 32px);
+        margin: auto;
+    }
+}
+
+.OurTestimonials {
+    margin-top: 100px;
+}
+
+.OurTestimonials .conteneer {
+    width: calc(100% - 360px);
+    margin: auto;
+}
+
+.OurTestimonials .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 80px;
+}
+
+.OurTestimonials .row1 {
+    display: flex;
+    align-items: flex-end;
+    gap: 300px;
+    align-self: stretch;
+}
+
+.OurTestimonials .row1a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    flex: 1 0 0;
+}
+
+.OurTestimonials .row1 a {
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-size: 18px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-99, #FCFCFD);
+}
+
+.OurTestimonials .row1 .row1a .row1ap {
+    color: var(--grey-15, #262626);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.OurTestimonials .row1 .row1a .row1ac {
+    color: var(--grey-35, #59595A);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.OurTestimonials .row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.OurTestimonials .row2 .row22 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.OurTestimonials .OurTestimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 12px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+}
+
+.OurTestimonials .OurTestimonial .story {
+    display: flex;
+    padding: 30px 50px;
+    align-items: center;
+    align-self: stretch;
+    background: var(--white-99, #FCFCFD);
+}
+
+.OurTestimonials .OurTestimonial .namepi {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1 0 0;
+}
+
+.OurTestimonials .OurTestimonial .story a {
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-97, #F7F7F8);
+    padding: 18px 24px;
+
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.OurTestimonials .OurTestimonial .parg {
+    display: flex;
+    padding: 50px;
+    align-items: flex-start;
+
+}
+
+.OurTestimonials .OurTestimonial .parg .pOur {
+    color: var(--grey-30, #4C4C4D);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .OurTestimonials .conteneer {
+        width: calc(100% - 160px);
+        margin: auto;
+    }
+
+    .OurTestimonials .row {
+        display: flex;
+        gap: 60px;
+    }
+
+    .OurTestimonials .row1 {
+        display: flex;
+        gap: 250px;
+    }
+
+    .OurTestimonials .row1 a {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    .OurTestimonials .row1 .row1a .row1ap {
+        font-size: 38px;
+    }
+
+    .OurTestimonials .row1 .row1a .row1ac {
+        font-size: 16px;
+    }
+
+    .OurTestimonials .row2 {
+        gap: 20px;
+    }
+
+    .OurTestimonials .row2 .row22 {
+        gap: 20px;
+    }
+
+    .OurTestimonials .OurTestimonial .story {
+        padding: 24px 40px;
+    }
+
+    .OurTestimonials .OurTestimonial .namepi {
+        gap: 10px;
+
+    }
+
+    .OurTestimonials .OurTestimonial .story a {
+        border-radius: 6px;
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+
+    .OurTestimonials .OurTestimonial .parg {
+        display: flex;
+        padding: 40px;
+    }
+
+    .OurTestimonials .OurTestimonial .parg .pOur {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .OurTestimonials .conteneer {
+        width: calc(100% - 32px);
+        margin: auto;
+    }
+
+    .OurTestimonials .row {
+        display: flex;
+        gap: 40px;
+    }
+
+    .OurTestimonials .row1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .OurTestimonials .row1 a {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    .OurTestimonials .row1 .row1a .row1ap {
+        font-size: 28px;
+    }
+
+    .OurTestimonials .row1 .row1a .row1ac {
+        font-size: 14px;
+    }
+
+    .OurTestimonials .row2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .OurTestimonials .row2 .row22 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .OurTestimonials .OurTestimonial .story {
+        padding: 20px 30px;
+    }
+
+    .OurTestimonials .OurTestimonial .namepi {
+        gap: 10px;
+
+    }
+
+    .OurTestimonials .OurTestimonial .story a {
+        border-radius: 6px;
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+
+    .OurTestimonials .OurTestimonial .parg {
+        padding: 30px;
+    }
+
+    .OurTestimonials .OurTestimonial .parg .pOur {
+        font-size: 14px;
+    }
+}
+
+.OurPricing {
+    margin-top: 186px;
+}
+
+.OurPricing .conteneer {
+    width: calc(100% - 360px);
+    margin: auto;
+}
+
+.OurPricing .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 80px;
+}
+
+.OurPricing .row .row1 {
+    display: flex;
+    align-items: flex-end;
+    gap: 300px;
+}
+
+.OurPricing .row1a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    flex: 1 0 0;
+}
+
+.OurPricing .row1a .row1ap {
+    color: var(--grey-15, #262626);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.OurPricing .row1a .row1ac {
+    color: var(--grey-35, #59595A);
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+.OurPricing .row1 .year {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--absolute-white, #FFF);
+}
+
+.OurPricing .row1 .year .Monthly {
+    padding: 14px 30px;
+    border-radius: 6px;
+    background: var(--orange-50, #FF9500);
+    color: var(--absolute-white, #FFF);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.OurPricing .row1 .year .Yearly {
+    border-radius: 100px;
+    padding: 14px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--grey-30, #4C4C4D);
+}
+
+.OurPricing .row2 {
+    display: flex;
+    padding: 80px;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.OurPricing .OurPricing1 {
+    display: flex;
+    padding: 50px 30px 30px 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    flex: 1 0 0;
+    border-radius: 12px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-99, #FCFCFD);
+}
+
+.OurPricing .OurPricing1 .FreePlan {
+    display: flex;
+    padding: 12px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid var(--orange-90, #FFEACC);
+    background: var(--orange-97, #FFF9F0);
+}
+
+.OurPricing .OurPricing1 .FreePlan a {
+    color: var(--grey-15, #262626);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.OurPricing .OurPricing1 .OurPricingp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: stretch;
+}
+
+.OurPricing .OurPricing1 .OurPricingp p {
+    color: var(--grey-30, #4C4C4D);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.OurPricing .OurPricing1 .OurPricingp .OurPricingp2 {
+    color: var(--grey-15, #262626);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.OurPricing .AvailableFeatures {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 14px 14px 0px 0px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+}
+
+.OurPricing .AvailableFeatures .AvailableFeature {
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.OurPricing .list {
+    display: flex;
+    padding: 0px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.OurPricing .list .list1 {
+    display: flex;
+    padding: 14px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+}
+
+.OurPricing .list .list1 .list1p {
+    color: var(--grey-30, #4C4C4D);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.OurPricing .GetStarted {
+    border-radius: 0px 0px 8px 8px;
+    background: var(--orange-50, #FF9500);
+    display: flex;
+    padding: 20px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.OurPricing .GetStarted a {
+    color: var(--absolute-white, #FFF);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .OurPricing {
+        margin-top: 100px;
+    }
+
+    .OurPricing .conteneer {
+        width: calc(100% - 160px);
+        margin: auto;
+    }
+
+    .OurPricing .row {
+        gap: 60px;
+    }
+
+    .OurPricing .row .row1 {
+        gap: 250px;
+    }
+
+    .OurPricing .row1a {
+        gap: 4px;
+    }
+
+    .OurPricing .row1a .row1ap {
+        font-size: 38px;
+    }
+
+    .OurPricing .row1a .row1ac {
+        font-size: 16px;
+    }
+
+    .OurPricing .row1 .year .Monthly {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .OurPricing .row1 .year .Yearly {
+        padding: 12px 24px;
+        font-size: 14px;
+
+    }
+
+    .OurPricing .row2 {
+
+        padding: 50px;
+    }
+
+    .OurPricing .OurPricing1 {
+        padding: 40px 24px 24px 24px;
+    }
+
+    .OurPricing .OurPricing1 .FreePlan {
+        padding: 10px 22px;
+    }
+
+    .OurPricing .OurPricing1 .FreePlan a {
+        font-size: 18px;
+    }
+
+    .OurPricing .OurPricing1 .OurPricingp p {
+        font-size: 16px;
+    }
+
+    .OurPricing .OurPricing1 .OurPricingp .OurPricingp2 {
+        font-size: 40px;
+    }
+
+    .OurPricing .AvailableFeatures {
+        display: flex;
+        padding: 30px;
+        gap: 24px;
+    }
+
+    .OurPricing .AvailableFeatures .AvailableFeature {
+        font-size: 18px;
+    }
+
+    .OurPricing .list .list1 {
+        display: flex;
+        padding: 12px;
+        gap: 8px;
+        border-radius: 6px;
+    }
+
+    .OurPricing .list .list1 .list1p {
+        font-size: 14px;
+    }
+
+    .OurPricing .GetStarted a {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .OurPricing {
+        margin-top: 50px;
+    }
+
+    .OurPricing .conteneer {
+        width: calc(100% - 32px);
+        margin: auto;
+    }
+
+    .OurPricing .row {
+        display: flex;
+        gap: 40px;
+    }
+
+    .OurPricing .row .row1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .OurPricing .row1a {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        align-self: stretch;
+    }
+
+    .OurPricing .row1a .row1ap {
+        font-size: 28px;
+
+    }
+
+    .OurPricing .row1a .row1ac {
+        font-size: 14px;
+    }
+
+    .OurPricing .row1 .year .Monthly {
+        padding: 12px 24px;
+        font-size: 14px;
+
+    }
+
+    .OurPricing .row1 .year .Yearly {
+        border-radius: 100px;
+        font-size: 14px;
+    }
+
+    .OurPricing .row2 {
+
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        align-self: stretch;
+    }
+
+    .OurPricing .OurPricing1 {
+        display: flex;
+        padding: 30px 20px 20px 20px;
+        gap: 30px;
+        align-self: stretch;
+    }
+
+    .OurPricing .OurPricing1 .FreePlan {
+        padding: 8px 22px;
+    }
+
+    .OurPricing .OurPricing1 .FreePlan a {
+        font-size: 16px;
+    }
+
+    .OurPricing .OurPricing1 .OurPricingp p {
+        font-size: 14px;
+    }
+
+    .OurPricing .AvailableFeatures {
+
+        padding: 20px;
+        gap: 20px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .OurPricing .AvailableFeatures .AvailableFeature {
+        font-size: 18px;
+    }
+
+    .OurPricing .list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .OurPricing .list .list1 {
+        border-radius: 6px;
+        display: flex;
+        padding: 12px;
+        gap: 8px;
+    }
+
+    .OurPricing .list .list1 .list1p {
+        font-size: 14px;
+    }
+
+    .OurPricing .GetStarted {
+
+        padding: 18px 24px;
+    }
+
+    .OurPricing .GetStarted a {
+        font-size: 14px;
+    }
+}
+.footer{
+    margin-top: 113px;
+}
+.footer .conteneer{
+    display: flex;
+padding: 100px 162px 30px 162px;
+flex-direction: column;
+align-items: flex-start;
+gap: 50px;
+background: var(--absolute-white, #FFF);
+}
+.footer .row1{
+    display: flex;
+justify-content:space-between;
+align-items:flex-start;
+align-self:stretch;
+}
+.footer .row1 .coloumn1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+
+}
+.footer .row1 .coloumn1 .coloumn1a{
+display: flex;
+align-items: flex-start;
+align-content: flex-start;
+gap: 20px;
+width: 304px;
+align-self: stretch;
+flex-wrap:wrap;
+} 
+.footer .row1 .coloumn1 .coloumn1a .com{
+    display: flex;
+align-items: center;
+gap: 6px;
+border-radius: 6px;
+}
+
+.footer .row1 .coloumn2{
+    display: flex;
+
+align-items: flex-start;
+gap: 30px;
+}
+.footer .row1 .coloumn2a{
+    display: flex;
+
+align-items: flex-start;
+gap: 30px;
+}
+.footer .row1 .coloumn22{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 14px;
+flex: 1 0 0;
+}
+.footer .row1 .coloumn22 .list{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 14px;
+flex: 1 0 0;
+}
+.footer .row1 .coloumn22 .Social{
+    display: flex;
+align-items: flex-start;
+gap: 14px;
+}
+.footer .row1 .coloumn22 .Home{
+    color: var(--grey-15, #262626);
+font-size: 20px;
+font-weight: 600;
+}
+.footer .row1 .coloumn22 .list a{
+  color: var(--grey-35, #59595A);
+font-size: 18px;
+font-weight: 400;
+}
+.footer .row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+
+}
+.footer .row3 p{
+ color: var(--grey-40, #656567);
+font-size: 18px;
+font-weight: 400;
+}
+.footer .row2{
+    width: 100%;
+    height: 1px;
+    background: #F1F1F3;
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .footer{
+        margin-top: 136px;
+    }
+    .footer .conteneer{
+     display: flex;
+    padding: 60px 80px 20px 80px;
+    gap: 30px;
+    }
+
+    .footer .row1 .coloumn1{
+     display: flex;
+    gap: 30px;
+    }
+    .footer .row1 .coloumn1 .coloumn1a{
+    display: flex;
+width: 304px;
+gap: 14px;
+
+    } 
+    .footer .row1 .coloumn1 .coloumn1a .com{
+        display: flex;
+    gap: 4px;
+    }
+    .footer .row1 .coloumn2{
+        display: flex;
+    
+    align-items: flex-start;
+    gap: 24px;
+    }
+    .footer .row1 .coloumn2a{
+        display: flex;
+    
+    align-items: flex-start;
+    gap: 24px;
+    }
+    .footer .row1 .coloumn22{
+        display: flex;
+    gap: 10px;
+    }
+    .footer .row1 .coloumn22 .list{
+        display: flex;
+gap: 8px;
+align-self: stretch;
+    }
+    .footer .row1 .coloumn22 .list a{
+    font-size: 16px;
+    }
+    .footer .row3 p{
+    font-size: 14px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer{
+        margin-top: 82px;
+        margin: auto;
+    }
+    .footer .conteneer{
+        padding: 50px 20px 24px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+    .footer .row1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+    .footer .row1 .coloumn1{
+        display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+align-self: stretch;
+    
+    }
+    .footer .row1 .coloumn1 .coloumn1a{
+    display: flex;
+gap: 12px;
+    } 
+    .footer .row1 .coloumn1 .coloumn1a .com{
+        display: flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+    }
+    
+    .footer .row1 .coloumn2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+    .footer .row1 .coloumn2a{
+        display: flex;
+    
+    align-items: flex-start;
+    gap: 30px;
+    }
+    .footer .row1 .coloumn22{
+        display: flex;  
+    gap: 10px;
+    }
+
+    .footer .row1 .coloumn22 .list{
+    display: flex;
+gap: 4px;
+align-self: stretch;
+    }
+    .footer .row1 .coloumn22 .Social{
+        display: flex;
+    gap: 10px;
+    }
+    .footer .row1 .coloumn22 .Home{
+    font-size: 18px;
+    }
+    .footer .row1 .coloumn22 .list a{
+    font-size: 14px;
+    }
+
+    .footer .row3 p{
+    font-size: 14px;
+    }
+
+}
+.saction2 .Unlock{
+    color: var(--orange-50, #FF9500);
+}
